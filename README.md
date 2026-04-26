@@ -76,3 +76,36 @@ Both were evaluated to understand how impurity measures affect model performance
   - User behavior patterns (e.g., coffee house visits)
 - Overfitting was observed when tree depth was not controlled
 - Performance indicates that user decision-making is influenced by multiple interacting factors
+
+## Improvements & Next Steps
+
+- Hyperparameter tuning:
+  - `max_depth`
+  - `min_samples_split`
+  - `min_samples_leaf`
+- Try ensemble models:
+  - Random Forest
+  - Gradient Boosting (XGBoost / CatBoost)
+- Better feature engineering:
+  - Grouping similar coupon types
+  - Encoding frequency features more effectively
+- Handle potential class imbalance
+  
+## Business Impact
+
+This model can help:
+- Improve coupon targeting strategies  
+- Increase coupon redemption rates  
+- Reduce irrelevant promotions  
+- Enhance customer experience  
+
+## Conclusion
+
+The Decision Tree model achieved an accuracy of 68%, serving as a strong baseline for understanding coupon acceptance behavior.
+
+While interpretable and effective for initial analysis, further improvements using ensemble models and feature engineering can significantly enhance performance.
+
+## References
+- Kaggle Dataset: In-Vehicle Coupon Recommendation  
+
+
